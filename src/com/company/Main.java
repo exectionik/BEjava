@@ -7,17 +7,7 @@ import java.util.List;
 
 
 public class Main {
-    public static void addIfNotExists (Integer a, List<Integer>list){
 
-        if(list.contains(a)){
-            System.out.println("toto sa uz v liste nachadza.");
-
-        }
-        else{
-            list.add(a);
-        }
-        System.out.println(list);
-    }
     public static void main(String[] args) {
 
         List<Integer> pepega = new ArrayList<>();
@@ -25,8 +15,10 @@ public class Main {
         pepega.add(12);
         pepega.add(142);
 
+        pepega.removeIf(n -> n%2==0);
+        System.out.println(pepega);
 
-       addIfNotExists(1,pepega);
+
 
 
 
