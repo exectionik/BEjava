@@ -1,7 +1,7 @@
 package com.company;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.Collections;
 
 
 
@@ -10,13 +10,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Integer> pepega = new ArrayList<>();
-        pepega.add(1);
-        pepega.add(12);
-        pepega.add(142);
+        List<Integer> list = new ArrayList<>() ;
+        Collections.addAll(list, 1, 1, 1, 2, 2, 3, 4, 5);
 
-        pepega.removeIf(n -> n%2==0);
-        System.out.println(pepega);
+        list.forEach((n) -> System.out.println(n * list.size()));
+
+
+
+
 
 
 
