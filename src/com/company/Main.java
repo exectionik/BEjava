@@ -13,7 +13,7 @@ public class Main {
         List<Integer> list = new ArrayList<>() ;
         Collections.addAll(list, 1, 1, 1, 2, 2, 3, 4, 5);
 
-        list.forEach((n) -> System.out.println(n * list.size()));
+        list.stream().map (n -> n * list.size() ).forEach(System.out::println);
 
 
 
