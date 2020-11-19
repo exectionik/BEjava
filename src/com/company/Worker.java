@@ -1,11 +1,11 @@
 package com.company;
 
-public class worker {
+public class Worker {
     private String name;
     private int age;
     private int budget;
 
-    public worker(String name,int age,int budget){
+    public Worker(String name,int age,int budget){
         this.name=name;
         this.age=age;
         this.budget=budget;
