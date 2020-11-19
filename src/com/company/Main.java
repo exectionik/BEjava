@@ -12,6 +12,8 @@ public class Main {
         mapa.put("Green", 2);
         mapa.put("Black", 3);
         mapa.put("White", 4);
-        mapa.forEach((n,v) -> System.out.println(n + " " + v));
+        mapa.putIfAbsent("Yellow",2);
+        mapa.putIfAbsent("Yellow",2);
+        mapa.forEach((n,v) -> System.out.println(n+ " " + v));
     }
 }
