@@ -2,7 +2,8 @@ package com.company;
 
 public enum Employees_list {
     TEACHER ("Teacher"),
-    PROGRAMMER ("Programmer");
+    PROGRAMMER ("Programmer"),
+    DRIVER("Driver");
 
 
     protected final String name;
