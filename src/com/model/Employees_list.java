@@ -1,4 +1,4 @@
-package com.company;
+package com.model;
 
 public enum Employees_list {
     TEACHER ("Teacher"),

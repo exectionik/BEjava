@@ -1,4 +1,4 @@
-package com.company;
+package com.model;
 
 
 public class Employee {
@@ -12,6 +12,14 @@ public class Employee {
         this.salary=salary;
         this.bonus=bonus;
 
+    }
+
+    public float getSalary() {
+        return salary;
+    }
+
+    public int getBonus() {
+        return bonus;
     }
 
     public void getInfo() {
